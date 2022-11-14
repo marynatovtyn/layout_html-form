@@ -73,21 +73,25 @@
       </fieldset>
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
-        <label class="field__label">
-          Do you love cats?
-          <input
-            type="radio"
-            name="cat"
-            value="yes"
-          >
-          Yes
-          <input
-            type="radio"
-            name="cat"
-            value="no"
-          >
-          No
-        </label>
+        <div class="field__label">
+          <label>
+            Do you love cats?
+            <input
+              type="radio"
+              name="cat"
+              value="yes"
+            >
+            Yes
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="cat"
+              value="no"
+            >
+            No
+          </label>
+        </div>
         <label class="field__label">
           What is your favorite color?
           <input
@@ -129,12 +133,7 @@
         <legend>Additional info</legend>
         <label class="field__label">
           Comments:
-          <textarea
-            name="comments"
-            cols="10"
-            rows="2"
-          >
-          </textarea>
+          <textarea name="comments"></textarea>
         </label>
         <label class="field__label">
           Would you recommend us?
